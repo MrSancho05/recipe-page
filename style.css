@@ -1,9 +1,148 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@font-face {
+  font-family: Outfit-Reg;
+  src: url("./assets/fonts/outfit/static/Outfit-Regular.ttf");
+}
+@font-face {
+  font-family: Outfit-Black;
+  src: url("./assets/fonts/outfit/static/Outfit-Black.ttf");
+}
+@font-face {
+  font-family: Outfit-Bold;
+  src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf");
+}
+@font-face {
+  font-family: Outfit-ExtraLight;
+  src: url("./assets/fonts/outfit/static/Outfit-ExtraLight.ttf");
+}
+@font-face {
+  font-family: Outfit-ExtraBold;
+  src: url("./assets/fonts/outfit/static/Outfit-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Outfit-Light;
+  src: url("./assets/fonts/outfit/static/Outfit-Light.ttf");
+}
+@font-face {
+  font-family: Outfit-Medium;
+  src: url("./assets/fonts/outfit/static/Outfit-Medium.ttf");
+}
+@font-face {
+  font-family: Outfit-SemiBold;
+  src: url("./assets/fonts/outfit/static/Outfit-SemiBold.ttf");
+}
+@font-face {
+  font-family: Outfit-Thin;
+  src: url("./assets/fonts/outfit/static/Outfit-Thin.ttf");
+}
+@font-face {
+  font-family: YoungSerif;
+  src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "PT Sans", sans-serif;
+  font-family: Outfit-Reg;
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+}
+.wrapper {
+  background-color: #fff;
+  width: 46%;
+  margin: 30px auto;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+.wrapper-img img {
+  border-radius: 20px;
+  width: 100%;
+}
+.wrapper-info {
+  font-size: 16px;
+}
+.wrapper-info p {
+  line-height: 25px;
+}
+h1,
+h2 {
+  font-family: YoungSerif;
+}
+h1 {
+  padding: 10px 0;
+  font-size: 40px;
+  font-weight: 400;
+}
+.preparation {
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: hsl(330, 100%, 98%);
+}
+.preparation h2 {
+  font-family: Outfit-Reg;
+  color: hsl(332, 51%, 32%);
+}
+.preparation ul {
+  padding: 15px 30px;
+  padding-bottom: 0;
+  line-height: 45px;
+}
+.ingredients {
+  padding-top: 15px;
+  line-height: 30px;
+}
+.ingredients h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.ingredients ul li {
+  margin-left: 16px;
+  color: grey;
+}
+.instructions {
+  line-height: 30px;
+}
+hr {
+  margin: 30px 0;
+}
+.instructions h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.instructions ol li {
+  margin-left: 16px;
+}
+.nutrition h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: hsl(30, 10%, 34%);
+}
+.nutrition table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+  font-size: 20px;
+}
+.nutrition tbody td {
+  text-align: left;
+  border-bottom: 1px solid grey;
+  padding: 15px 0;
+  padding-left: 30px;
+}
+.nutrition tbody th {
+  border-bottom: 1px solid grey;
+  text-align: left;
+  color: hsl(30, 10%, 34%);
+  font-weight: 700;
+  padding: 15px 0;
+  padding-left: 30px;
+  font-family: Outfit-Extrabold;
 }
